@@ -14,10 +14,10 @@ API_ID = int(getenv("API_ID", "23503743"))
 API_HASH = getenv("API_HASH", "6c510ffd8cb84bfbec630587a3b9d758")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "bot token")
+BOT_TOKEN = getenv("BOT_TOKEN", "8117260332:AAFAgNtrf_j_KSdL66UGh3h5_Y-M4wv_EO8")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "isi mongo")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hasibuanarif262:2aSYdYH4Fm0L9sTo@bacot.v6tkf.mongodb.net/?retryWrites=true&w=majority&appName=bacot")
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -31,7 +31,7 @@ DURATION_LIMIT_MIN = int(
 )  # Remember to give value in Minutes
 
 # forced entry
-MUST_JOIN = getenv("MUST_JOIN", "@GalleryUsu")
+MUST_JOIN = getenv("MUST_JOIN", "bacotstoree")
 
 
 EXTRA_PLUGINS = getenv(
@@ -59,12 +59,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002323610313"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002396985894"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "8074994806").split())
+    map(int, getenv("OWNER_ID", "7016953372").split())
 )  # Input type must be interger
 
 
@@ -78,7 +78,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/UsuStore",
+    "https://t.me/bacotstoree",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -89,10 +89,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/GalleryUsu"
+    "SUPPORT_CHANNEL", "https://t.me/bacotstoree"
 )
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/GalleryUsu"
+    "SUPPORT_GROUP", "https://t.me/bacotsupport"
 ) 
 
 
@@ -116,7 +116,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/FakeCodeID")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/bacotrobott")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
