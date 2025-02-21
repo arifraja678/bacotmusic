@@ -36,7 +36,7 @@ MUST_JOIN = getenv("MUST_JOIN", "bacotstoree")
 
 EXTRA_PLUGINS = getenv(
     "EXTRA_PLUGINS",
-    "True",
+    "False",
 )
 
 # Fill True if you want to load extra plugins
