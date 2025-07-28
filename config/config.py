@@ -14,7 +14,7 @@ API_ID = int(getenv("API_ID", "23503743"))
 API_HASH = getenv("API_HASH", "6c510ffd8cb84bfbec630587a3b9d758")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "8117260332:AAFAgNtrf_j_KSdL66UGh3h5_Y-M4wv_EO8")
+BOT_TOKEN = getenv("BOT_TOKEN", "8306406648:AAFZ_X_icqP-ss1rVXpKqRd6zpJNN_Ki9lg")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hasibuanarif262:2aSYdYH4Fm0L9sTo@bacot.v6tkf.mongodb.net/?retryWrites=true&w=majority&appName=bacot")
@@ -31,7 +31,7 @@ DURATION_LIMIT_MIN = int(
 )  # Remember to give value in Minutes
 
 # forced entry
-MUST_JOIN = getenv("MUST_JOIN", "bacotstoree")
+MUST_JOIN = getenv("MUST_JOIN", "rajaana12")
 
 
 EXTRA_PLUGINS = getenv(
