@@ -59,7 +59,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002396985894"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002195149007"))
 
 
 # Your User ID.
@@ -78,7 +78,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/bacotstoree",
+    "https://t.me/rajaanaa12",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -89,10 +89,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/bacotstoree"
+    "SUPPORT_CHANNEL", "https://t.me/rajaanaa12"
 )
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/bacotsupport"
+    "SUPPORT_GROUP", "https://t.me/rajaanaa12"
 ) 
 
 
