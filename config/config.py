@@ -10,8 +10,8 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "23503743"))
-API_HASH = getenv("API_HASH", "6c510ffd8cb84bfbec630587a3b9d758")
+API_ID = int(getenv("API_ID", "24121327"))
+API_HASH = getenv("API_HASH", "131d930b965a92df0fcb5eff814314d3")
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "7937100734:AAEna05rXhXBWhBBMzr-jeO6xOHBCfkZb38")
